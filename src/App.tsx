@@ -1,38 +1,14 @@
 import { BsBookmark, BsShare } from "react-icons/bs";
+import { SideLeft } from "./components/SideLeft";
 
-import { CircleProgressBarTW } from "./CircleProgressBarTW/CircleProgressBarTW";
+import { SideRinght } from "./components/SideRight";
 
 export function App() {
   const progress = "96";
   return (
     <main className="p-10 bg-gradient-to-br from-background-us via-silver-us to-background-us">
-      <section className="flex text-silver-us bg-background-us rounded-xl">
-        <aside className="p-2">
-          <div className="">
-            <img
-              className="w-full h-full rounded-2xl"
-              src="/the-last-of-us.jpg"
-              alt=""
-            />
-          </div>
-
-          <div className="m-8 p-2 flex justify-between items-center">
-            <div className="flex flex-col justify-center items-center gap-2">
-              <h3 className="text-sm">Apresentação</h3>
-              <CircleProgressBarTW progress="97" />
-            </div>
-
-            <div className="flex flex-col justify-center items-center gap-2">
-              <h3>Crítica</h3>
-              <CircleProgressBarTW progress="95" />
-            </div>
-
-            <div className="flex flex-col justify-center items-center gap-2">
-              <h3>Audiência</h3>
-              <CircleProgressBarTW progress="96" />
-            </div>
-          </div>
-        </aside>
+      <section className="flex flex-col text-silver-us bg-background-us rounded-xl">
+        <SideLeft />
 
         <div className="m-2">
           <h1 className="text-4xl font-semibold">The Last Of Us</h1>
@@ -86,8 +62,9 @@ export function App() {
             </div>
           </section>
         </div>
-      </section>
 
+        <SideRinght />
+      </section>
     </main>
   );
 }
