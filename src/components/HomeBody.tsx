@@ -3,7 +3,7 @@ import { BsBookmark, BsShare } from "react-icons/bs";
 export function HomeBody() {
   return (
     <>
-      <div className="mx-4 mt-36 w-4/5 flex flex-col">
+      <div className="mx-4 mt-36 _w-4/5 flex flex-col">
         <h1 className="my-4 text-4xl font-semibold">The Last Of Us</h1>
 
         <div className="py-4 flex justify-between text-base font-medium">

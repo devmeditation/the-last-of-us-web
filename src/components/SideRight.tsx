@@ -6,7 +6,7 @@ export function SideRinght() {
   const seriesCast = SERIES_CAST
   return (
     <>
-      <aside className="mx-4 mt-[8rem] rounded-2xl flex flex-col justify-center items-start">
+      <aside className="p-4 mt-[8rem] rounded-2xl flex flex-col ">
         <h1 className="text-4xl text-white-us font-semibold">Elenco</h1>
 
         <div className="mt-8 flex flex-col justify-between">

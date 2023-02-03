@@ -7,7 +7,7 @@ export function SideLeft() {
   return (
     <>
       <aside className="p-2">
-        <div className="m-8 p-2">
+        <div className="_m-8 p-2">
           <img
             className="w-full h-full rounded-2xl"
             src={statusPublicPublic.imageURL}

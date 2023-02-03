@@ -13,10 +13,8 @@ module.exports = {
     },
     extend: {
       gridTemplateColumns: {
-        // Simple 16 column grid
         'us': '2fr, 1fr, 1fr, 1fr',
-
-        // Complex site-specific column configuration
+        'mid-2x': '1.5fr, 1.8fr, 1fr',
         'footer': '200px minmax(900px, 1fr) 100px',
       },
     },
