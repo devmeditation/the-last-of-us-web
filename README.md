@@ -1,6 +1,6 @@
 # The Last Of Us - Frontend Web
 
-![screen](/public/TheLastOfUs_Mode%C3%A7Project.jpg)
+![screen](/public/The-Last-Of-Us_Model.jpg)
 
 ## 
 - Developer: **Dev Meditation**
