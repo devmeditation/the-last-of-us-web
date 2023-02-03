@@ -6,14 +6,14 @@ export function SideRinght() {
   const seriesCast = SERIES_CAST
   return (
     <>
-      <aside className="m-4 p-2 w-full bg-silver-us/25 rounded-2xl flex flex-col justify-center items-start lg:w-1/5">
+      <aside className="mx-4 mt-[8rem] rounded-2xl flex flex-col justify-center items-start">
         <h1 className="text-4xl text-white-us font-semibold">Elenco</h1>
 
-        <div className="mt-16 flex flex-col justify-between">
+        <div className="mt-8 flex flex-col justify-between">
           {seriesCast.map((cast) => {
             return (
-              <div key={cast.id} className="flex items-center gap-6 my-4">
-                <div className="mt-2  w-20 h-20">
+              <div key={cast.id} className="flex items-center gap-4 my-2">
+                <div className="w-14 h-14">
                   <img
                     className="rounded-[100%]  w-full h-full object-cover"
                     src={cast.imageURL}

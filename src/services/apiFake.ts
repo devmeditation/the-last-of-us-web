@@ -9,19 +9,19 @@ export const SERIES_CAST = [
     id:         '2',
     actor :     'Bella Ramsey', 
     character:  'Ellie', 
-    image:      '/series-cast/bellaRamsey.jpg'
+    imageURL:      '/series-cast/bellaRamsey.jpg'
   },
   {
     id:         '3',
     actor :     'Anna Torv', 
     character:  'Tess', 
-    image:      '/series-cast/annaTorv.jpg'
+    imageURL:      '/series-cast/annaTorv.jpg'
   },
   {
     id:         '4',
     actor :     'Merle Dandridge', 
     character:  'Marlene', 
-    image:      '/series-cast/merleDandridge.jpg'
+    imageURL:      '/series-cast/merleDandridge.jpg'
   },
 ]
 

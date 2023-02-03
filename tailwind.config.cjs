@@ -11,7 +11,15 @@ module.exports = {
       'green-us': '#52965D',
       'silver-us': '#BFBFBF',
     },
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        'us': '2fr, 1fr, 1fr, 1fr',
+
+        // Complex site-specific column configuration
+        'footer': '200px minmax(900px, 1fr) 100px',
+      },
+    },
   },
   plugins: [],
 }
