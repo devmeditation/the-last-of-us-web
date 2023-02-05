@@ -1,6 +1,6 @@
 import { Header } from "./components/Header";
-import { HomeBody } from "./components/HomeBody";
 import { SideLeft } from "./components/SideLeft";
+import { HomeBody } from "./components/HomeBody";
 import { SideRight } from "./components/SideRight";
 
 import styles from './styles/app.module.scss';

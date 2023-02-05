@@ -1,0 +1,97 @@
+.homeBody {
+  @apply
+  mx-4 
+  mt-36 
+  
+  flex 
+  flex-col
+}
+
+.homeBodyTitle {
+  @apply
+  my-4 
+  font-semibold
+  text-4xl 
+  text-white-us
+}
+
+.homeBodySubtitle {
+  @apply
+  py-4 
+  
+  font-semibold
+  text-base 
+  text-white-us
+
+  flex 
+  justify-between 
+}
+
+.homeBodyButtonsContainer {
+  @apply
+  py-4
+  text-white-us 
+
+  flex 
+  items-center 
+  gap-8 
+}
+
+.homeBodyButton {
+  @apply
+  px-4 
+  py-1.5
+
+  rounded-2xl 
+  
+  font-semibold 
+  text-lg 
+  bg-green-us/75 
+
+  hover:scale-105
+  active:scale-95
+}
+
+.homeBodyIconsContainer {
+  @apply
+  flex 
+  gap-3
+}
+
+.homeBodyIcon {
+  @apply
+  w-10 
+  h-10 
+  p-2 
+  
+  rounded-full 
+  border-2 
+  
+  flex 
+  items-center 
+  justify-center
+
+  hover:scale-105
+  active:scale-95
+  active:text-white-us/75
+}
+
+.homeBodyDescription {
+  @apply
+  my-4
+}
+
+.homeBodyTableText {
+  @apply
+  my-4 
+  text-sm 
+  
+  grid 
+  grid-cols-us 
+  
+  border  
+  border-t-0 
+  border-r-0 
+  border-l-0 
+  border-b-green-us
+}
