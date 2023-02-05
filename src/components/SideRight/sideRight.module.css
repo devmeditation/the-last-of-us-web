@@ -1,0 +1,72 @@
+.sideRight {
+  @apply
+  lg:mt-[8rem]
+  mt-8
+  p-4 
+  
+  rounded-2xl 
+  
+  flex 
+  flex-col
+}
+
+.sideRightTitle {
+  @apply
+  font-semibold
+  text-4xl 
+  text-white-us 
+}
+
+.sideRightContainer {
+  @apply
+  mt-2
+  lg:mt-8 
+  
+  flex 
+  flex-col 
+  justify-between
+}
+
+.sideRightCasts {
+  @apply
+  my-2
+  
+  flex 
+  items-center 
+  gap-4 
+}
+
+.sideRightCastsImage {
+  @apply
+  w-14 
+  h-14 
+  
+  rounded-[100%] 
+  object-cover
+}
+
+.sideRightCastsText {
+  @apply
+  flex flex-col justify-start items-start
+}
+
+.sideRightCastsTitle {
+  @apply
+  text-white-us
+}
+
+.sideRightCastsLink {
+  @apply
+  mt-4 
+  font-semibold
+  text-xl 
+  text-green-us 
+  
+  flex 
+  items-center 
+  justify-start 
+  gap-2
+
+  hover:text-white-us
+  active:scale-95
+}
