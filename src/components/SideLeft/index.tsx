@@ -1,28 +1,29 @@
-import { CircleProgressBarTW } from "../CircleProgressBarTW/CircleProgressBarTW";
-import { SERIES_STATUS_PUBLIC } from "../services/apiFake";
+import { CircleProgressBarTW } from "../../CircleProgressBarTW/CircleProgressBarTW";
+import { SERIES_STATUS_PUBLIC } from "../../services/apiFake";
+import styles from "./sideLeft.module.css"
 
 export function SideLeft() {
   const statusPublicPublic = SERIES_STATUS_PUBLIC;
 
   return (
     <>
-      <aside className="p-2">
-        <div className="_m-8 p-2">
+      <aside className={styles.sideLeft}>
+        <div>
           <img
-            className="w-full h-full rounded-2xl"
+            className={styles.sideLeftImage}
             src={statusPublicPublic.imageURL}
             alt={statusPublicPublic.imageDescription}
           />
         </div>
 
-        <div className="mx-4 px-8 flex justify-around items-center">
+        <div className={styles.sideLeftStatusContainer}>
           {statusPublicPublic.statusSerie.map((status) => {
             return (
               <div
                 key={status.title}
-                className="flex flex-col justify-center items-center gap-2"
+                className={styles.sideLeftStatus}
               >
-                <h3 className="text-sm">{status.title}</h3>
+                <h3>{status.title}</h3>
                 <CircleProgressBarTW progress={status.percent} />
               </div>
             );

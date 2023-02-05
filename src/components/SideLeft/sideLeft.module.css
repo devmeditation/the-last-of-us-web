@@ -1,0 +1,33 @@
+.sideLeft {
+  @apply
+  p-2
+}
+
+.sideLeftImage {
+  @apply
+  mb-4
+  w-full 
+  h-full 
+  rounded-2xl
+}
+
+.sideLeftStatusContainer {
+  @apply
+  mx-4 
+  px-8 
+  
+  flex 
+  justify-around 
+  items-center
+}
+
+.sideLeftStatus {
+  @apply
+  flex 
+  flex-col 
+  justify-center 
+  items-center 
+  gap-2
+
+  text-sm
+}
