@@ -1,4 +1,4 @@
-import { CircleProgressBarTW } from "../../CircleProgressBarTW/CircleProgressBarTW";
+import { CircleProgressBarTW } from "../CircleProgressBarTW/CircleProgressBarTW";
 import { SERIES_STATUS_PUBLIC } from "../../services/apiFake";
 import styles from "./sideLeft.module.css"
 
