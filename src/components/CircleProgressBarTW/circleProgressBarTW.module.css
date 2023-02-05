@@ -1,0 +1,24 @@
+.cicleProgressBarTW {
+  @apply
+  w-[4rem] 
+  h-[4rem] 
+  rotate-12 
+  flex 
+  
+  text-[0] 
+  rounded-[50%] 
+
+  after:content-[attr(data-progress)'%'] 
+  after:w-[4rem] 
+  after:m-[0.25rem] 
+  after:-rotate-12 
+  
+  after:flex 
+  after:flex-col 
+  after:justify-center 
+  
+  after:rounded-full 
+  after:bg-background-us 
+  after:text-base 
+  after:text-center
+}
