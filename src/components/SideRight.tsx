@@ -2,7 +2,7 @@ import { BiChevronRightCircle } from "react-icons/bi";
 
 import { SERIES_CAST } from "../services/apiFake";
 
-export function SideRinght() {
+export function SideRight() {
   const seriesCast = SERIES_CAST
   return (
     <>

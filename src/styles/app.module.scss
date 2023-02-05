@@ -1,0 +1,45 @@
+.main {
+  @apply
+  lg:p-16
+
+  bg-gradient-to-br 
+  from-background-us 
+  via-silver-us/75 
+  to-background-us
+}
+
+.appContainer {
+  @apply
+  xl:m-36
+  pt-8 
+  md:pt-28 
+  
+  md:rounded-[3rem] 
+  
+  bg-[url(/bg_he_last_of_us.webp)] 
+  bg-cover 
+  bg-top 
+  bg-no-repeat
+}
+
+.appContainerBody {
+  @apply
+  md:p-16 
+  xl:p-28 
+  
+  rounded-[3rem] 
+  
+  flex 
+  flex-col 
+  lg:items-end  
+  lg:grid 
+  lg:grid-cols-3 
+  xl:grid-cols-mid-2x 
+ 
+  text-silver-us 
+  
+  bg-gradient-to-b 
+  from-silver-us/0 
+  via-background-us/95 
+  to-background-us 
+}
